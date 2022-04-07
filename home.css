@@ -1,0 +1,268 @@
+body {
+    margin: auto
+}
+
+a {
+    text-decoration: none
+}
+
+
+/*footer CSS*/
+
+#header {
+    height: 60px;
+    background-color: #e28b62;
+    margin-top: 1%;
+}
+
+#icon {
+    float: left;
+    margin-left: 2%;
+    margin-top: -1%;
+}
+
+#social {
+    float: right;
+    margin-top: 1%;
+}
+
+.slogo {
+    height: 30px;
+    width: 30px;
+}
+
+
+/*Search CSS*/
+
+#search {
+    height: 400px;
+    width: 100%;
+    background-image: url('images/food\ \(2\).jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(161, 194, 233, 0.6);
+    border-radius: 70%;
+    margin-left: 43%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#logo>span {
+    margin-left: 28%;
+    margin-top: 16%;
+    position: absolute;
+    font-size: 80px;
+}
+
+#heading {
+    margin-left: 22%;
+    margin-top: 17%;
+    position: absolute;
+    font-size: 50px;
+    color: rgba(20, 119, 201, 0.788);
+}
+
+.dropdown {
+    height: 50px;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 23%;
+    position: absolute;
+}
+
+select {
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.restSelect {
+    width: 55%;
+}
+
+
+/*QuickSearch CSS*/
+
+#quickSearch {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#quickHeading {
+    font-size: 30px;
+    color: #e28b62;
+    display: block;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+
+#quickSubHeading {
+    font-size: 20px;
+    color: gray;
+    display: block;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+.tileContainer {
+    width: 30%;
+    box-shadow: 10px 20px 40px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.tileComponent1 {
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+
+.tileComponent1>img {
+    width: 100%;
+    height: 180px;
+}
+
+.tileComponent2 {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float: left;
+}
+
+.componentHeading>a {
+    color: #e28b62;
+    font-size: 25px;
+}
+
+.componentSubHeading {
+    color: gray;
+    font-size: 15px;
+}
+
+.qs-block {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.marg-bot {
+    margin-bottom: 10px;
+}
+
+.heading {
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+@media only screen and (max-width: 600px) {
+    .restaurantsinput {
+        height: 40px;
+        width: 245px;
+        color: gray;
+        border: none;
+        border-radius: 0px;
+        font-size: 15px;
+        opacity: 0.7;
+        float: left;
+    }
+    .logo {
+        text-align: center;
+        font-size: 60px;
+        color: red;
+        background: white;
+        width: 80px;
+        height: 90px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        margin-left: 38%;
+        font-family: Poppins;
+        font-weight: bold;
+    }
+    .locationSelector {
+        position: relative;
+        top: -238px;
+        margin-left: 23.5%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    .search {
+        position: absolute !important;
+        left: 5px;
+        margin: 2% 0px;
+        top: 73px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1150px) {
+    .locationDropdown {
+        height: 40px;
+        width: 310px;
+        color: gray;
+        border: none;
+        border-radius: 0px;
+        font-size: 15px;
+        opacity: 0.7;
+        margin-right: 21px;
+        margin-bottom: 25px;
+        float: left;
+    }
+    .locationSelector {
+        position: relative;
+        top: -238px;
+        margin-left: 32.5%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    .search {
+        position: absolute !important;
+        left: 5px;
+        margin: 1% 0px;
+        top: 73px !important;
+    }
+}
+
+
+/*footer CSS*/
+
+#footer {
+    height: 120px;
+    width: 100%;
+    margin-top: 5%;
+    background-color: #e28b62
+}
+
+#footText {
+    text-align: center;
+}
+
+.footDiv {
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder {
+    border: none
+}
